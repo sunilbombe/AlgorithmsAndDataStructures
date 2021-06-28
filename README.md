@@ -13,11 +13,15 @@ Data structures are store and manipulate the data.
 
 Big O notations gives us a way to compare time complexity of an algorithm in a objective and hardware independent manner.
 
-O(1)        Constant
-O(logn)     Logarithmic
-O(n)        Linear
-O(nlogn)    n Log star n
-O(n^2)      Quadratic
+O(1)         Constant
+
+O(log n)     Logarithmic
+
+O(n)         Linear
+
+O(n log n)   n Log star n
+
+O(n^2)       Quadratic
 
 # Time complexity comparison :
 
