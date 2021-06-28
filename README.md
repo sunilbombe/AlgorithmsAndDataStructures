@@ -54,7 +54,7 @@ in case of unstable sort algorithm, the relative order of duplicate elements wil
 
 stable sort is preffered not in case of integers but in case of objects or other data types.
 
-#Bubble Sort
+# Bubble Sort
 
 Bubble sort is an in place algorithm. 
 
@@ -64,7 +64,7 @@ It is a stable sort algorithm.
 
 It creates a logical partition in the array and considers the nth index as unsorted array at the beginning as nothing is sorted. In each iteration it compared the consecutive array indexes from the beginning until unsorted index and move the large element to the end of unsorted array. In the next iteration unsorted array index reduces by one and sorted array length increases by one. the entire array gets sorted when unsorted index reached to 1.
 
-#Selection Sort 
+# Selection Sort 
 
 Selection sort is an in place algorithm.
  
