@@ -109,4 +109,12 @@ It is type of insertion sort.
 As this is a type of insertion sort, it works in the same fashion with single change, the gap between the value to be compared is higher in the beginning which reduces over iterations.
 
 In the last iteration it works like a insertion sort only. it is more performant than insertion sort as the number of shift's are reduced.
+
+# Recursion 
+
+Recursion is method calling itself. 
+
+There has to be a break point in recursion else we can get stack overflow exception. 
+
+The recursion is costlier than the regular implementation but sometime it is still preferred because of its convenience.
  
