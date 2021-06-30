@@ -95,3 +95,18 @@ In insertion sort the entire array is divided into two logical partition. A sort
 The new element is compared with each element in the sorted partition from right to left. if the element in sorted partition is greater than the new element then the elements in the sorted partition moved to the right by one place to make room for the new element. This movement continues until the comparison mismatch or we hit the start of array, finally the element is put into the index where the comparison mismatch.
 
 This way in each iteration the sorted partition grow and unsorted partition reduces by length one
+
+# Shell Sort
+
+This is an in place algorithm.
+ 
+It has time complexity of O(n^2).
+
+It is an unstable sort algorithm.
+ 
+It is type of insertion sort.
+ 
+As this is a type of insertion sort, it works in the same fashion with single change, the gap between the value to be compared is higher in the beginning which reduces over iterations.
+
+In the last iteration it works like a insertion sort only. it is more performant than insertion sort as the number of shift's are reduced.
+ 
